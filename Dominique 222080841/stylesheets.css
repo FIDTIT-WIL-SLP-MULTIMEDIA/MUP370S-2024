@@ -1,0 +1,54 @@
+/* .container-1 {
+  background-color: grey;
+}
+
+.contact-button {
+  background-color: rgb(0, 110, 255);
+  color: white;
+  border: 0;
+  width: 200px;
+}
+
+.lead {
+  color: white;
+}
+
+.services-btn {
+  color: rgb(0, 162, 255);
+  border-radius: 50%;
+  border-color: rgb(0, 162, 255);
+  background-color: white;
+}
+
+.collage-image {
+  height: 500px;
+  width: 500px;
+  border-radius: 110%;
+}
+
+.col {
+  display: flex;
+  gap: 5px;
+}
+
+.card-img-top {
+  border-radius: 50%;
+  border-image: round;
+}
+
+.card {
+  display: grid;
+
+  gap: 10px;
+}
+
+.container-5 {
+  background-color: grey;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  color: black;
+  align-items: center;
+} */

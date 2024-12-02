@@ -1,0 +1,366 @@
+<!-- =======================================================
+* Name: Aatiqah Benjamin
+* Surname: Benjamin
+* Student Number: 222090936
+* Date: 04.11.2024 
+======================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>YourName Portfolio</title>
+  <style>
+    .hero-section {
+      background: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+      height: 100vh;
+    }
+
+    .section-carousel {
+      background: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .section-pricing {
+      background: linear-gradient(rgba(215, 209, 209, 0.5),
+          rgba(204, 202, 202, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .section-contact {
+      background: linear-gradient(rgba(215, 209, 209, 0.5),
+          rgba(123, 121, 121, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .img-thumbnail {
+      height: 100px;
+      width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- STICKY HEADER NAVIGATION WITH A DROPDOWN MENU SECTION -->
+  <header class="py-3 mb-4">
+    <!--  Content for sticky header with  busibess logo and navigation with dropdown menu goes here  -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-dark" href="#">JayDigits</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item text-dark">
+                <a class="nav-link text-dark" href="#">Link</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link disabled text-dark" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button type="button" class="btn btn-primary">Contact</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <!--  Content for two colum hero section goes here  -->
+    <div class="hero row row-cols-sm-2 text-center m-5 p-5">
+      <div class="mt-5">
+      <h1 class="fs-1 fw-bold">Welcome to My<br>Portfolio</h1>
+      <p class="text-">Showcasing my journey, projects, and skills. Let's connect and create something amazing!.</p>
+        <div class="d-flex ms-5">
+          <button type="button" class="btn btn-primary ms-5 px-3">Learn More</button>
+          <button type="button" class="btn border-light ms-5 text-light">Get in Touch</button>
+        </div>
+      </div>
+
+      <img src="images/hero-image.jpg">
+    </div>
+
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section>
+    <div class="container px-4 py-5 text-center" id="featured-3">
+      <h2 class="pb-2 fw-bold">Key Services</h2>
+      <p class="text-secondary">These are what I am great at. But there is more that I can do!</p>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-primary bg-gradient fs-2 mb-3">
+            <i class="bi bi-laptop"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis fw-bold"> Web Development</h3>
+          <p>Building responsive and functional websites with modern technologies.</p>
+          <a href="#" class="">
+            <button type="button" class="btn border-primary ms-5 px-3 text-primary">Learn More</button>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-primary bg-gradient fs-2 mb-3">
+            <i class="bi bi-brush"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis  fw-bold">UI/UX Design</h3>
+          <p>Designing intuitive and aesthetically pleasing user interfaces.</p>
+          <a href="#" class="">
+            <button type="button" class="btn border-primary ms-5 px-3 text-primary">Learn More</button>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-primary bg-gradient fs-2 mb-3">
+            <i class="bi bi-bar-chart-line"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis  fw-bold">SEO Optimization</h3>
+          <p>Enhancing website visibility and search engine rankings.</p>
+          <a href="#" class="">
+            <button type="button" class="btn border-primary ms-5 px-3 text-primary">Learn More</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carousel Section -->
+  <section class="section-carousel">
+    <!--  Content sliding portfolio with projects goes here  -->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item ">
+        <div class="container">
+          <img src="images/carousel/UX-1.webp" class="image-fluid w-100 h-100 m-5" >
+            <div class="carousel-caption">
+              <h1>Project 1</h1>
+              <p>Brief description of project 1</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="images/carousel-2/design-1.webp" class="image-fluid w-75 h-100 m-5 ms-5" >
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Project 2</h1>
+              <p>Brief description of project 2</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/carousel-2/design-4.webp" class="image-fluid w-75 h-100 m-5 ms-5" >  
+            <div class="container">
+            <div class="carousel-caption">
+              <h1>Project 3</h1>
+              <p>Brief description of project 3</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="images/carousel-2/design-6.webp" class="image-fluid w-75 h-100 m-5 ms-5" >            
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Project 4</h1>
+              <p>Brief description of project 4</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section>
+    <!--  Content for testimonials goes here. Thumbnail size should be 100 by 100 px  -->
+    <div class="container text-center">
+      <div class="row row-cols-sm-4 gap-3 my-5">
+        <div class="col border border-secondary rounded">
+        <img src="images/testimonials/testimonials-1.jpg" class="rounded-circle img-thumbnail">
+          <h2 class="fw-bold">John Doe</h2>
+          <p class="text-secondary">CEO, Company Inc.</p>
+          <p>"Working with you has been a game-changer. Your attention to detail and design skills are exceptional."</p>
+        </div>
+        <div class="col border border-secondary rounded">
+          <img src="images/testimonials/testimonials-2.jpg" class="rounded-circle img-thumbnail" >          
+          <h2 class="fw-bold">Jane Smith</h2>
+          <p class="text-secondary">Product Manager, TechCorp</p>
+          <p>"Absolutely loved the end result. You brought our vision to life beautifully!"</p>
+        </div>
+        <div class="col border border-secondary rounded">
+          <img src="images/testimonials/testimonials-4.jpg" class="rounded-circle img-thumbnail">
+          <h2 class="fw-bold">Alex Johnson</h2>
+          <p class="text-secondary">Freelancer, Designer
+          </p>
+          <p>"A pleasure to work with—your creativity and professionalism set you apart."</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="section-pricing text-center pt-5">
+    <!--  Content for plan ricing goes here  -->
+    <h2 class="pb-2 fw-bold">Our Pricing Plans</h2>
+    <p class="text-secondary">Choose the plan that best fits your needs</p>
+    
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center p-5">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3 bg-light">
+            <h4 class="my-0 fw-normal">Basic</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R129<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>5 Projects</li>
+              <li>Basic Support</li>
+              <li>Email Notification</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3 bg-secondary">
+            <h4 class="my-0 fw-normal text-light">Standard</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R249<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 Projects</li>
+              <li>Priority Support</li>
+              <li>Custom Reports</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-secondary">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Premium</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R499<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Unlimited Projects</li>
+              <li>24/7 Support</li>
+              <li>Advanced Analytics</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="my-5 ">
+    <!--  Skills progress bar goes here  -->
+    <h2 class="pb-2 fw-bold text-center">My Skills</h2>
+    <p class="text-secondary text-center">A representation of my expertise</p>
+
+    <div class="mx-5">
+      <div>
+      <h4>HTML</h4>
+      <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-primary w-100">90%</div>
+        </div>
+      </div>
+
+      <div>
+        <h4>CSS</h4>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success w-75" >85%</div>
+        </div>
+      </div>
+
+      <div>
+        <h4>JavaScript</h4>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-info w-75">75%</div>
+        </div>
+      </div>
+
+      <div>
+        <h4>Photoshop</h4>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-warning w-75" >70%</div>
+        </div>
+      </div>
+
+      <div>
+        <h4>WordPress</h4>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-danger w-75">80%</div>
+        </div>
+      </div>
+
+      
+    
+  </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="section-contact pt-5">
+    <!--  Contact formgoes here  -->
+    <div class="modal-body p-5 pt-0">
+      <h2 class="pb-2 fw-bold text-center">Get in Touch</h2>
+    <p class="text-secondary text-center">I would love to hear from you</p>
+      <form class="m-5">
+        <div class="row row-cols-sm-2">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control rounded-3 " id="floatingPassword" placeholder="name">
+            <label for="floatingPassword" class="ms-1">Your Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput" class="ms-1">Your Email</label>
+          </div>
+        </div>
+        <div class="form-floating mb-3 w-100">
+          <input type="message" class="form-control rounded-3 p-5" id="floatingPassword" placeholder="Message">
+          <label for="floatingPassword">Your Message</label>
+        </div>
+        <button class=" mb-2 btn btn-lg rounded-3 btn-primary w-50 ms-5 mx-auto" type="submit">Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-light text-center p-5">
+    <!--  Footer wil links and social media icons -->
+    <div class="m-5">
+    <div>
+      <i class="col bi bi-twitter-x ms-1"></i>
+      <i class="col bi bi-instagram ms-1"></i>
+      <i class="col bi bi-facebook ms-1"></i>
+    </div>
+
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Home</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Features</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
+  </ul>
+
+  <p class=" p-5 ">© 2024 JoDigits, Inc</p>
+  </footer>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

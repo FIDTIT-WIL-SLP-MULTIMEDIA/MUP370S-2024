@@ -1,0 +1,31 @@
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .section-carousel {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+  }
+    .testimonial-section img{
+        border-radius: 100%;
+        padding-bottom: 20px;
+    }
+  .section-pricing {
+    background: linear-gradient(rgba(215, 209, 209, 0.5),
+        rgba(204, 202, 202, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+  }
+
+  .section-contact {
+    background: linear-gradient(rgba(215, 209, 209, 0.5),
+        rgba(123, 121, 121, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+  }
+  .section-contact input {
+    width: 100%;
+  }
+  .img-thumbnail {
+    height: 100px;
+    width: 100px;
+  }

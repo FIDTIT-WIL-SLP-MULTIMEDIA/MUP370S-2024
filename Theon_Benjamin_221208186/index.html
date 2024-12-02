@@ -1,0 +1,390 @@
+<!-- =======================================================
+* Name: Theon
+* Surname:Benjamin
+* Student Number:221208186
+* Date: 04.11.2024 
+======================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourName Portfolio</title>
+  <style>
+   body{
+    overflow-x: hidden;
+   }
+    .hero-section {
+      background: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+      height: 100vh;
+    }
+
+    .section-carousel {
+      background: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .section-pricing {
+      background: linear-gradient(rgba(215, 209, 209, 0.5),
+          rgba(204, 202, 202, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .section-contact {
+      background: linear-gradient(rgba(215, 209, 209, 0.5),
+          rgba(123, 121, 121, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .img-thumbnail {
+      height: 100px;
+      width: 100px;
+    }
+   
+  </style>
+</head>
+
+<body>
+  <!-- STICKY HEADER NAVIGATION WITH A DROPDOWN MENU SECTION -->
+    <!--  Content for sticky header with  busibess logo and navigation with dropdown menu goes here  -->
+    <header class="p-3 md-3">
+      <div class="container ">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none ">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <div class="dropdown">
+            <a href="#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <h1 class="fs-3">JayDidgets</h1>
+            </a>
+            <ul class="dropdown-menu text-small shadow" style="">
+              <li><a class="dropdown-item active" href="#" aria-current="page">Overview</a></li>
+              <li><a class="dropdown-item" href="#">Services</a></li>
+              <li><a class="dropdown-item" href="#">Portfolio</a></li>
+              <li><a class="dropdown-item" href="#">Testimonial</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Pricing</a></li>
+              <li><a class="dropdown-item" href="#">Skills</a></li>
+            </ul>
+          </div>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            
+          </ul>
+  
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control form-control-dark " placeholder="Search" aria-label="Search">
+          </form>
+  
+          <div class="text-end">
+            
+            <button type="button" class="btn btn-primary">Contact Me</button>
+          </div>
+        </div>
+      </div>
+
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section pt-5" >
+    <!--  Content for two colum hero section goes here  -->
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/hero-image.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="450" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center mx-auto p-2" style="width: 500px;">Welcome to My Portfolio</h1>
+        <p class="lead text-center mx-auto p-2" style="color:#fff" style="width: 500px">Showcasing my journey, projects, and skills. Let's connect and create something amazing!.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+          
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn More</button>
+          <button type="button" class="btn btn-outline-light btn-lg px-4">Get in Touch</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FEATURES SECTION -->
+  <section>
+    <!--  Content for feature section showing your services  goes here  -->
+    <div class="container px-4 py-5 " id="featured-3">
+      <h1 class="text-center fs-2 fw-bolder">Key Services</h1>
+      <p class="text-center opacity-50">These are what I am great at. But there is more that I can do!</p>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col text-center">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-3">
+            <i class="bi bi-laptop text-primary"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Web Development</h3>
+          <p>Building responsive and functional websites with modern technologies</p>
+          <button type="button" class="btn btn-outline-primary">Learn More</button>
+        </div>
+        <div class="feature col text-center">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-3">
+            <i class="bi bi-brush text-primary"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">UI/UX Design</h3>
+          <p>Designing intuitive and aesthetically pleasing user interfaces.</p>
+          <button type="button" class="btn btn-outline-primary">Learn More</button>
+        </div>
+        <div class="feature col text-center">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-3">
+            <i class="bi bi-bar-chart text-primary"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">SEO Optimization</h3>
+          <p>Enhancing website visibility and search engine rankings.</p>
+          <button type="button" class="btn btn-outline-primary">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carousel Section -->
+  <section class="section-carousel">
+    <!--  Content sliding portfolio with projects goes here  -->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+      <div class="carousel-inner bg-secondary-subtle ">
+        <div class="carousel-item">
+          <img src="./images/carousel-2/design-6.webp" alt="" class="mx-auto d-block"  height="600">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <p class="fw-bold text-center">Project4</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active bg-secondary-subtle ">
+
+          <img src="./images/carousel-2/design-4.webp" alt="" class="mx-auto d-block "  height="600">
+          <div class="carousel-caption text-start">
+            <p class="fw-bold text-center">Project4</p>>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel/UX-1.webp" alt="" class="mx-auto d-block" height="600">
+          <div class="carousel-caption text-start">
+            <p class="fw-bold text-center">Project4</p>
+          </div>
+        </div>
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section>
+    <!--  Content for testimonials goes here. Thumbnail size should be 100 by 100 px  -->
+
+      <!--  Content for feature section showing your services  goes here  -->
+      <div class="container px-4 py-5 " id="featured-3">
+        <h1 class="text-center fs-2 fw-bolder">Testimonials</h1>
+        <p class="text-center opacity-50">Hear from those I've worked with</p>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col text-center card rounded-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded ">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-3">
+              <img src="./images/testimonials/testimonials-1.jpg" alt="" class="rounded-circle" width="100" height="100">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">John Doe</h3>
+            <p>CEO, Company Inc.</p>
+            <p>"Working with you has been a game-changer. Your attention to detail and design skills are exceptional."</p>
+           
+          </div>
+          <div class="feature col text-center card rounded-3 shadow-sm p-2 mb-5 bg-body-tertiary rounded">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-3">
+              <img src="./images/testimonials/testimonials-2.jpg" alt="" class="rounded-circle" width="100" height="100"> 
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Jane Smith</h3>
+            <p>Product Manager, TechCorp</p>
+            <p>"Absolutely loved the end result. You brought our vision to life beautifully!"</p>
+            
+          </div>
+
+          <div class="feature col text-center card rounded-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded mx-auto">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-3">
+              <img src="./images/testimonials/testimonials-3.jpg" alt="" class="rounded-circle " width="100" height="100">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Alex Johnson</h3>
+            <p>Freelancer, Designer</p>
+            <p>"A pleasure to work with—your creativity and professionalism set you apart."</p>
+            
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="section-pricing">
+    <!--  Content for plan ricing goes here  -->
+    <div class="container py-3">
+
+    
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-body-emphasis">Our Pricing Plans</h1>
+          <p class="fs-5 text-body-secondary">Choose the plan that best fits your needs</p>
+        </div>
+      </header>
+    
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Basic</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">R129/mo<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>5 Projects</li>
+                  <li>Basic Support</li>
+                  <li>Email support</li>
+                  <li>Email Notification</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Standard</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">R249/mo<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 Projects</li>
+                  <li>Priority Support</li>
+                  <li>Custom Reports</li>
+                  
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+              <div class="card-header py-3 text-bg-dark border-dark">
+                <h4 class="my-0 fw-normal">Premium</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">R499/mo<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Unlimited Projects</li>
+                  <li>24/7 Support</li>
+                  <li>Advanced Analytics</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+    </div>
+  </section>
+  <!-- Skills Section -->
+  <section>
+    <!--  Skills progress bar goes here  -->
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-bolder fs-3 text-body-emphasis">My Skills</h1>
+        <p class="fs-5 text-body-secondary">A representation of my expertise</p>
+      </div>
+      <div class="skill-bar px-5 py-5 ">
+      <h1 class="fw-bold fs-4">HTML</h1>
+      <div class="progress mb-5" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 90%">90%</div>
+      </div>
+    
+    
+      <h1 class="fw-bold fs-4">CSS</h1>
+      <div class="progress mb-5" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 85%">85%</div>
+      </div>
+    
+    
+      <h1 class="fw-bold fs-4">JavaScript</h1>
+      <div class="progress mb-5" role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-info" style="width: 75%">75%</div>
+      </div>
+    
+    
+      <h1 class="fw-bold fs-4">Photoshop</h1>
+      <div class="progress mb-5 " role="progressbar" aria-label="Example with label" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width:70%">70%</div>
+    </div>
+    
+      <h1 class="fw-bold fs-4">WordPress</h1>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 80%">80%</div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Contact Form Section -->
+
+  <section class="section-contact">
+    <!--  Contact formgoes here  -->
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-bolder fs-2 text-body-emphasis">Get in Touch</h1>
+      <p class="fs-5 text-body-secondary">I would love to hear from you</p>
+    </div>
+    <div class="contact px-5 py-5">
+    <div class="row row-cols-2 mb-3">
+      <div class="col mb-3">
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      </div>
+      
+  </div>
+  <div class="form-floating">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+    <label for="floatingTextarea2 opacity-25">Message</label>
+  </div>
+  </section>
+<section class="bg-dark py-5">
+  <!-- Footer Section -->
+  <footer>
+    <!--  Footer wil links and social media icons -->
+    
+   
+    
+    <div class="container text-light">
+
+      <footer class="py-3 my-4">
+        <ul class="nav col-md-12 justify-content-center list-unstyled d-flex">
+          <li class="ms-3 bi bi-twitter-x"><a class="text-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3 bi bi-instagram"><a class="text-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3 bi bi-facebook"><a class="text-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light ">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
+        </ul>
+        <p class="text-center text-light">© 2024 Company, Inc</p>
+      </footer>
+    </div>
+  </footer>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

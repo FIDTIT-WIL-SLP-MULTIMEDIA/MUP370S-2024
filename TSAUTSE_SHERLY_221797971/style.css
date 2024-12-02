@@ -1,0 +1,28 @@
+
+.container-2{
+    padding: 30px;
+}
+.img-thumbnail{
+    border-radius: 50%;
+}
+.card-body.img{
+    border-radius: 50%;
+}
+ul{
+    list-style: none;
+}
+.section-pricing{
+    padding: 30px;
+}
+.section-contact{
+    padding: 50px;
+}
+.testimonies{
+    padding: 30px;
+}
+.section-pricing{
+    padding: 30px;
+}
+.myskills{
+    padding: 30px;
+}

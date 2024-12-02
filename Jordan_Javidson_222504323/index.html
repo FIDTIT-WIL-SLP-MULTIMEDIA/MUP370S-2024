@@ -1,0 +1,372 @@
+<!-- =======================================================
+* Name1
+* Date: 04.11.2024 
+======================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="custom_css\custom.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>YourName Portfolio</title>
+  <style>
+    .hero-section {
+      background: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+      height: 100vh;
+    }
+
+    .section-carousel {
+      background: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .section-pricing {
+      background: linear-gradient(rgba(215, 209, 209, 0.5),
+          rgba(204, 202, 202, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .section-contact {
+      background: linear-gradient(rgba(215, 209, 209, 0.5),
+          rgba(123, 121, 121, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .img-thumbnail {
+      height: 100px;
+      width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- STICKY HEADER NAVIGATION WITH A DROPDOWN MENU SECTION -->
+  <header>
+    <!--  Content for sticky header with  busibess logo and navigation with dropdown menu goes here  -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">JayDigits</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">services</a></li>
+                <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                <li><a class="dropdown-item" href="#">Skills</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <!-- HERO SECTION -->
+  <section>
+    <!--  Content for two colum hero section goes here  -->
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 bg-secondary mt-1 px-4">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images\hero-image.jpg" class="d-block mx-lg-auto img-fluid p-5" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6 text-center">
+        <h1 class="display-5 fw-bold lh-1 mb-3 px-5">Welcome to My Portfolio</h1>
+        <p class="lead px-5 text-light">Showcasing my journey, projects, and skills. Let's connect and create something
+          amazing!.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Learn More</button>
+          <button type="button" class="btn btn-outline-light btn-lg px-4">Get in touch</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="services">
+    <!--  Content for feature section showing your services  goes here  -->
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center mt-5 mb-4">
+      <h1 class="display-4 fw-bold fs-2">Key Services</h1>
+      <p class="fs-5 text-muted">These are what I am great at. But there is more that I can do!</p>
+    </div>
+
+    <div class="row align-items-center text-center mb-5">
+      <div class="col">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="primary" class="bi bi-laptop"
+          viewBox="0 0 16 16">
+          <path
+            d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5">
+        </svg>
+        <h2 class="fw-bold fs-4 mt-4">Web Development</h2>
+        <p class="fs-5 text-muted"> Building responsive and functional websites with modern technologies.</p>
+        <button type="button" class="btn btn-outline-primary btn-lg px-4 gap-3">learn More</button>
+      </div>
+
+      <div class="col">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-brush"
+          viewBox="0 0 16 16">
+          <path
+            d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04M4.705 11.912a1.2 1.2 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.4 3.4 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3 3 0 0 0 .126-.75zm1.44.026c.12-.04.277-.1.458-.183a5.1 5.1 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005zm3.582-3.043.002.001h-.002z" />
+        </svg>
+        <h2 class="fw-bold fs-4 mt-4">UI/UX Design</h2>
+        <p class="fs-5 text-muted"> Designing intuitive and aesthetically pleasing user interfaces.</p>
+        <button type="button" class="btn btn-outline-primary btn-lg px-4 gap-3">learn More</button>
+      </div>
+
+
+      <div class="col">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-bar-chart-line"
+          viewBox="0 0 16 16">
+          <path
+            d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1zm1 12h2V2h-2zm-3 0V7H7v7zm-5 0v-3H2v3z" />
+        </svg>
+        <h2 class="fw-bold fs-4 mt-4">SEO Optimization</h2>
+        <p class="fs-5 text-muted"> Enhancing website visibility and search engine rankings.</p>
+        <button type="button" class="btn btn-outline-primary btn-lg px-4 gap-3">learn More</button>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+  <!-- Carousel Section -->
+
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"
+        aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+        </svg>
+        <div class="carousel-caption">
+          <h1>Another example headline.</h1>
+          <p>Some representative placeholder content for the second slide of the carousel.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+        </svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+        </svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+        </svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <section>
+    <!--  Content sliding portfolio with projects goes here  -->
+  </section>
+
+  <!-- Testimonial Section -->
+  <section>
+    <!--  Content for testimonials goes here. Thumbnail size should be 100 by 100 px  -->
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="bg-light">
+    <!--  Content for plan ricing goes here  -->
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center mt-5">
+      <h1 class="display-4 fw-bold fs-2 text-body-emphasis">Our Pricing Plan</h1>
+      <p class="fs-5 text-body-secondary text-secondary">Choose the plan that best fits your needs</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center px-5 mb-5 ">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3 ">
+            <h4 class="my-0 fw-normal">Basic</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R129<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>5 Projects</li>
+              <li>Basic Support</li>
+              <li>Email Notifications</li>
+
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3 bg-secondary text-light">
+            <h4 class="my-0 fw-normal ">Standard</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R249<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 Projects</li>
+              <li>Priority support</li>
+              <li>Custom Reports</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-secondary text-light">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Premium</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R499<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Unlimited Projects</li>
+              <li>24/7 support</li>
+              <li>Advanced Analytics</li>
+
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Skills Section -->
+  <section>
+    <!--  Skills progress bar goes here  -->
+  </section>
+
+  <!-- Contact Form Section -->
+  <section>
+    <!--  Contact formgoes here  -->
+
+    <div class="py-5 text-center bg-light">
+
+      <div class=" p-3 pb-md-4 mx-auto text-center mt-2">
+        <h1 class="display-4 fw-bold fs-2 text-body-emphasis">Get In Touch</h1>
+        <p class="fs-5 text-body-secondary text-secondary"> I would love to hear from you</p>
+      </div>
+
+      <div class="row g-3 text-start">
+        <div class="col-sm-6 ">
+          <label for="firstName" class="form-label">First name</label>
+          <input type="text" class="form-control" id="firstName" value="" required="" placeholder="your name">
+          <div class="invalid-feedback">
+            Your name
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <label for="email" class="form-label">Email <span class="text-body-secondary"></span></label>
+          <input type="email" class="form-control" id="email" placeholder="your email">
+          <div class="invalid-feedback">
+            Your email
+          </div>
+        </div>
+
+        <div class="col-12 mt-4 mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="message" rows="3"></textarea>
+          <div class="invalid-feedback">
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-primary btn-lg px-4">Send a message</button>
+
+
+
+
+
+
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <!--  Footer wil links and social media icons -->
+
+    <footer class="py-3 my-4  text-light">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 text-light">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Skills</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Testimonials</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2024 JoDigits, Inc</p>
+    </footer>
+
+  </footer>
+
+</body>
+
+</html>

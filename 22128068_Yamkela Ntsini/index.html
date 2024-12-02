@@ -1,0 +1,371 @@
+<!-- =======================================================
+* Name: YAMKELA
+* Surname:NTSINI
+* Student Number: 221282068
+* Date: 04.11.2024 
+======================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YAMKELA NTSINI Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .hero-section {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url('') center/cover no-repeat;
+      height: 100vh;
+      /* color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center; */
+    }
+
+    .section-carousel {
+      background: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .section-pricing {
+      background: linear-gradient(rgba(215, 209, 209, 0.5),
+          rgba(204, 202, 202, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+      /* padding: 50PX */
+    }
+
+    .section-contact {
+      background: linear-gradient(rgba(215, 209, 209, 0.5),
+          rgba(123, 121, 121, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    }
+
+    .img-thumbnail {
+      height: 100px;
+      width: 100px;
+    }
+
+    /* header {
+      position: sticky;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 160px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    } */
+
+    /* .cta-button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    } 
+    .testimonial-card {
+      margin: 10px 0;
+      border: 1px solid #cfcfcfec;
+      border-radius: 5px;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+
+    .pricing-card {
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      padding: 50px;
+      text-align: center;
+      background: linear-gradient(to bottom right, #ffffff, #ffffff);
+    }
+
+    .progress {
+      height: 25px;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        display: none;
+      }
+
+      .hamburger {
+        display: block;
+        cursor: pointer;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+    }
+
+    .hamburger {
+      display: none;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .btn-custom-basic {
+      background-color: #e2e0e0;
+    }
+
+    .btn-custom-standard {
+      background-color: #6d6d6d;
+    }
+
+    .btn-custom-premium {
+      background-color: #007bff;
+    } */
+  </style>
+</head>
+
+<body>
+  <!-- STICKY HEADER NAVIGATION WITH A DROPDOWN MENU SECTION -->
+  <header>
+    <div class="logo">JayDigits</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <nav>
+      <div class="nav-links">
+        <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+            <a href="/services">Services</a>
+            <a href="/portfolio">Portfolio</a>
+            <a href="/testimonials">Testimonials</a>
+            <a href="/pricing">Pricing</a>
+            <a href="/skills">Skills</a>
+          </div>
+
+        </div>
+      </div>
+      <input type="text" class="search-bar" placeholder="Search...">
+      <button class="cta-button">Contact Me</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1 class="display-4 text-dark"><b>Welcome to My Portfolio</b></h1>
+          <p class="lead text-muted">Showcasing my journey, projects, and skills. Let's connect and create something
+            amazing!</p>
+          <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+          <a href="#" class="btn btn-secondary btn-lg">Get in Touch </a>
+        </div>
+        <div class="col-md-6">
+          <div class="hero-images">
+            <img src="images/hero-image.jpg" alt="Hero Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="container my-5">
+    <h2 class="text-center">Key Services</h2>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <i class="bi bi-code-slash" style="font-size: 2rem;"></i>
+        <h3>Web Development</h3>
+        <p>Building responsive and functional websites with modern technologies.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="bi bi-paint-bucket" style="font-size: 2rem;"></i>
+        <h3>UI/UX Design</h3>
+        <p>Designing intuitive and aesthetically pleasing user interfaces.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="bi bi-search" style="font-size: 2rem;"></i>
+        <h3>SEO Optimization</h3>
+        <p>Enhancing website visibility and search engine rankings.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="testimonial-card">
+    <h2 class="text-center">Testimonials</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/testimonials/testimonials-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">John Doe</h5>
+            <p class="card-text"> CEO, Company Inc.
+              "Working with you has been a game-changer. Your attention to detail and design skills are exceptional."
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/testimonials/testimonials-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jane Smith</h5>
+            <p class="card-text">Product Manager, TechCorp
+              "Absolutely loved the end result. You brought our vision to life beautifully!"</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/testimonials/testimonials-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Alex Johnson</h5>
+            <p class="card-text">Freelancer, Designer
+
+              "A pleasure to work with—your creativity and professionalism set you apart."</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="section-pricing">
+    <h2 class="text-center">Our Pricing Plans</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="pricing-card">
+          <h3>Basic</h3>
+          <p>R129/mo</p>
+          <p>5 Projects</p>
+          <p>Basic Support</p>
+          <p>Email Notification</p>
+          <a href="#" class="btn btn-custom-basic">Choose Plan</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pricing-card">
+          <h3>Standard</h3>
+          <p>R249/mo</p>
+          <p>10 Projects</p>
+          <p>Priority Support</p>
+          <p>Custom Reports</p>
+          <a href="#" class="btn btn-custom-standard">Choose Plan</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pricing-card">
+          <h3>Premium</h3>
+          <p>R499/mo</p>
+          <p>Unlimited Projects</p>
+          <p>24/7 Support</p>
+          <p>Advanced Analytics</p>
+          <a href="#" class="btn btn-custom-premium">Choose Plan</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="container my-5">
+    <h2 class="text-center">My Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <label>HTML</label>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%; background-color: #147aff;">90%</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label>CSS</label>
+        <div class="progress">
+          <div class="progress-bar" style="width: 85%; background-color: #00ff0d;">85%</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label>JavaScript</label>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%; background-color: #00d9ff;">80%</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label>Photoshop</label>
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%; background-color: #ffd000;">75%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Form Section -->
+  <section class="container my-5">
+    <h2 class="text-center">Get in Touch</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="text-center my-5 .section-contact">
+    <p>&copy; 2024 YourName, Inc. All Rights Reserved.</p>
+    <p>Follow me on
+      <a href="#">LinkedIn</a>,
+      <a href="#">Twitter</a>,
+      <a href="#">Instagram</a>
+    </p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

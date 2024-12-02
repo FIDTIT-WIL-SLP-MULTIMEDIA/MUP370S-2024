@@ -1,0 +1,44 @@
+.header-bg{
+    background-color: white;
+}
+
+.hero-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+    height: 100vh;
+}
+.btn-text{
+    color: white;
+    border-color: white;
+}
+.text{
+    color:white;
+}
+
+.section-pricing {
+    background: linear-gradient(rgba(215, 209, 209, 0.5),
+        rgba(204, 202, 202, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+  }
+
+  .section-carousel {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+  }
+
+  .section-contact {
+    background: linear-gradient(rgba(215, 209, 209, 0.5),
+        rgba(123, 121, 121, 0.5)), url('path-to-your-image.jpg') center/cover no-repeat;
+  }
+.laptop{
+    color: #0d6efd;
+}
+
+.brush{
+    color: #0d6efd;
+}
+
+.chart-line{
+    color: #0d6efd;
+}
+
+ 
